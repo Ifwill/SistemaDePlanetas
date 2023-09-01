@@ -18,6 +18,7 @@ public class PlanetasController {
 	public void start() {
 		int op = 5;
 		do {
+			
 			switch (planetasView.menu()) {
 			case 1:
 				adicionarPlanetas();

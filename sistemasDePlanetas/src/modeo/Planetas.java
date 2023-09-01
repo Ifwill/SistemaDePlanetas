@@ -3,11 +3,11 @@ package modeo;
 public class Planetas {
 	private String nome;
 	private int id;
-	static int incremento = 1;
+	static int incremento;
 
 	public Planetas(String nome) {
 		this.nome = nome;
-		this.id = incremento++;
+		this.id = ++incremento;
 	}
 
 	public String getNome() {
