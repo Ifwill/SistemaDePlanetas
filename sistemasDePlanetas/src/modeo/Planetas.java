@@ -3,7 +3,7 @@ package modeo;
 public class Planetas {
 	private String nome;
 	private int id;
-	static int incremento;
+	private static int incremento;
 
 	public Planetas(String nome) {
 		this.nome = nome;
