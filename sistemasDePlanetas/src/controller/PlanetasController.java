@@ -32,9 +32,7 @@ public class PlanetasController {
 				limparLista();
 				break;
 			}
-			if (op > 4) {
-				planetasView.opcaoErrada();
-			}
+			
 
 		} while (op != 0);
 
